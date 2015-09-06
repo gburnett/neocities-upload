@@ -1,0 +1,37 @@
+{
+    "name": "neocities-upload",
+    "version": "0.1.0",
+    "description": "Upload files to a neocities site",
+    "main": "lib/index.js",
+    "dependencies": {
+        "async": "^1.4.2",
+        "minimist": "^1.1.0",
+        "neocities": "^0.0.3",
+        "prompt": "^0.2.14"
+    },
+    "devDependencies": {
+        "jslint": "^0.9.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "jslint ./lib/index.js",
+        "prepublish": "npm run lint"
+    },
+    "keywords": [
+        "neocities"
+    ],
+    "author": "gburnett",
+    "license": "MIT",
+    "preferGlobal": true,
+    "bin": {
+        "neocities-upload": "lib/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gburnett/neocities-upload"
+    },
+    "bugs": {
+        "url": "https://github.com/gburnett/neocities-upload/issues"
+    },
+    "homepage": "https://github.com/gburnett/neocities-upload"
+}

@@ -1,7 +1,7 @@
 neocities-upload
 ================
 
-Upload local files to a neocities site.
+Upload local files to a [neocities](http://neocities.org) site.
 
 Install
 -------

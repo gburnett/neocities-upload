@@ -16,6 +16,6 @@ To upload local files to your neocities site:
 neocities-upload
 ```
 Input your neocities login credentials at the prompt.
-This will upload any visible files in the current working directory to your neocities site.
+This will upload any visible files in the current working directory, or subdirectories, to your neocities site.
 Uploaded files will retain the names used locally and overwrite any existing file of the same name.
 Success or failure is indicated in a string of json.

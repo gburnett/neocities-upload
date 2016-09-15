@@ -1,16 +1,16 @@
 {
     "name": "neocities-upload",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Upload files to a neocities site",
     "main": "lib/index.js",
     "dependencies": {
-        "async": "^1.4.2",
         "minimist": "^1.1.0",
         "neocities": "^0.0.3",
-        "prompt": "^0.2.14"
+        "prompt": "^1.0.0",
+        "recursive-readdir": "^2.0.0"
     },
     "devDependencies": {
-        "jslint": "^0.9.3"
+        "jslint": "^0.10.3"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,6 +25,9 @@
     "preferGlobal": true,
     "bin": {
         "neocities-upload": "lib/index.js"
+    },
+    "engines": {
+        "node": ">=0.6 <=4.2"
     },
     "repository": {
         "type": "git",
